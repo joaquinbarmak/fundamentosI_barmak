@@ -43,7 +43,46 @@ def par(num):
     return num % 2 == 0 and num != 0
 
 def parisiano (lista):
+    lista_bool = []
     for numero in lista:
-        return par(numero) == True
+        if par(numero) == True:
+            lista_bool.append(True)
+        else:
+            lista_bool.append(False)
+    return lista_bool
 
-print(parisiano([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+#print(parisiano([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+
+#ej6
+def lector_caracteres(string):
+    diccionario = {}
+    for letra in string:
+        if letra in diccionario:
+            diccionario[letra]+= 1
+        else:
+            diccionario[letra] = 1
+    return diccionario
+
+#print(lector_caracteres('Agua'))
+
+#ej7
+'''
+no se como hacerlo
+'''
+
+#ej8
+def palindromo(palabra):
+    return palabra == palabra[::-1]
+
+#print(palindromo('anais'))
+
+#ej9
+def productoria (lista):
+    resultado = 1
+    for numero in lista:
+        resultado *= numero
+    return resultado
+
+#print(productoria([2, 4, 6, 8]))
+
+#ej10
