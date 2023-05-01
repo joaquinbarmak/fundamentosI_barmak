@@ -96,6 +96,6 @@ def dos_P(lista):
         if resultado is not None:
             print(resultado.group())
 
-lista_ej = ['Practica Python', 'Practica C++', 'Practica Fortnite']
+lista_ej = ['Practica Python', 'Practica C++', 'Practica Portnite']
 
 dos_P(lista_ej)
