@@ -7,7 +7,7 @@ def start_with(letra, archivo):
                 count += 1
     print('el numero de lines que no empiezan con', letra, 'es', count)
 
-start_with('H', 'documento')
+#start_with('H', 'documento')
 
 #ej2
 def read_n_lines(n, archivo):
@@ -15,7 +15,7 @@ def read_n_lines(n, archivo):
         for i in range(n):
             print(f.readline())
 
-read_n_lines(2, 'documento')
+read_n_lines(2, 'textoejemplo.txt')
 
 #ej3
 def read_n_back_lines(n, archivo):
