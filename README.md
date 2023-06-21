@@ -1,1 +1,4 @@
-# fundamentosI_barmak
+### Instalacion
+
+
+### Como correr la aplicacion

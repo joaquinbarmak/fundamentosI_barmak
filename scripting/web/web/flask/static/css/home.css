@@ -1,0 +1,38 @@
+h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-shadow: 5cm;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-size-adjust: 1000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Welcome {
+    background-color: rgb(69, 40, 2);
+    padding: auto;
+}
+
+.Welcome p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration:wavy;
+}
+
+.Welcome p:hover {
+    color: rgb(39, 3, 242);
+}
+
+.Welcome img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: auto;
+}
+.Medio ul{
+    font-size: 80.5px;
+}

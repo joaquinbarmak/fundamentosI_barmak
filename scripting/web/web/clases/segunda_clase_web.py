@@ -38,5 +38,3 @@ datos = respuesta.json()
 
 respuesta2 = requests.get('https://pokeapi.co/api/v2/ability/150/')
 datos2 = respuesta2.json()
-
-print(datos2['effect_entries'])

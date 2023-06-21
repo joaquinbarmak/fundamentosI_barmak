@@ -1,0 +1,11 @@
+header{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'VT323';
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}

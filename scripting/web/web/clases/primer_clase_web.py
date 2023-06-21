@@ -36,6 +36,8 @@ Recurso: un tipo de item de la base de datos
 '''
 Request --> un pedido a un servidor.
 
+@ --> decorador
+
 Verbos http --> disparan acciones particulares --> siempre hablando de aplicaciones Rest.
 
 Post: verbo http asociado a persistir (guardar) datos de cero.
@@ -44,7 +46,9 @@ get: para obtener el contenido de una web o para realizar una peticion a un API.
 
 delete: verbo asociado a borrar datos.
 
-patch: verbo asociado a reescribir datos.
+patch: modifica una parte del item
+
+put: modifica todo el item
 
 '''
 '''
@@ -56,6 +60,25 @@ recurso --> las cosas que puedo consultar de la base de datos. (/aros-de-plata)
 las URLs mapean recursos
 
 diferencia entre path y url : una accede a datos mediante el internet (url), y a la otra de forma local (path).
+
+Flask (carpeta)
+|
+|--> app.py (archivo) <-- tenemos los endpoints (rutas) de mi api 
+|
+|--> templates (carpeta) <-- vamos a tener todas las pantallas de mi aplicacion (HTML)
+|
+|--> static (carpeta) <-- aqui vamos a tener todos los estilos de sus pantallas
+    |
+    |--> CSS
+|
+|--> assets (carpeta) --> aca irian todos los recursos extra
+
+3 tecnologias basicas de la api:
+    - HTML --> Hyper Text Markup Language --> la estructura de la interfaz grafica.
+           --> etiquetas de != tipos de que me permiten dibujar en la pantalla
+           --> <nombre_etiqueta> </nombre_etiqueta> 
+    - CSS --> Cascading Style Sheets --> maquilla o decora la base que puso HTML
+    - Javascript --> lo dinamico sobre las estructuras maquilladas
 
 '''
 
